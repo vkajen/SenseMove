@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name ="smblue">#204CA1</color>
+    <color name="smblack">#262629</color>
+    <color name= "smfont">#d5d6d8</color>
+    <color name="smred">#d12127</color>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SenseMoves</string>
+    <string name="CONTINUE">CONTINUE</string>
+    <string name="ABOUT">ABOUT</string>
+    <string name="CONECTION">CONECTION</string>
+    <string name="USERPROFILE">USER PROFILE</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Gender">GENDER</string>
+    <string name="USERNAME"> USER NAME</string>
+    <string name="NAME">NAME</string>
+</resources>

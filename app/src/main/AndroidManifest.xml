@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zelora.sm">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mfit"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mfit"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".workout.SummaryActivity" />
+        <activity android:name=".workout.StartActivity" />
+        <activity android:name=".workout.GuideActivity" />
+        <activity android:name=".workout.WorkoutActivity" />
+        <activity android:name=".workout.SelectActivity" />
+        <activity android:name=".bluetooth.BluetoothActivity" />
+        <activity android:name=".about.AboutActivity" />
+        <activity android:name=".about.aboutActivity" />
+        <activity android:name=".activity.UserProfileActivity" />
+        <activity android:name=".activity.SenseMoveHomeActivity" />
+        <activity android:name=".activity.SenseMoveFitContinueActivity" />
+        <activity android:name=".activity.SenseMoveFitActivity" />
+        <activity android:name=".activity.SenseMoveActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
